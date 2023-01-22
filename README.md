@@ -1,6 +1,6 @@
-Copyright 2022 London App Brewery LTD (www.appbrewery.com)
+Copyright 2022 Carlos-F-Braga
 
-The code in this tutorial project is licended under the Apache License, Version 2.0 (the "License");
+The code in this project is licended under the Apache License, Version 2.0 (the "License");
 you may not use this project except in compliance with the License.
 You may obtain a copy of the License at
 
@@ -125,8 +125,7 @@ dfx canister call <REPLACE WITH NFT CANISTER ID> transferOwnership '(principal "
 # Conneting to the Token Canister
 
 1. Copy over the token declarations folder
-
-2. Set the token canister id into the <REPLACE WITH TOKEN CANISTER ID>
+2. Set the token canister id into the `<REPLACE WITH TOKEN CANISTER ID>`
 
 ```
 const dangPrincipal = Principal.fromText("<REPLACE WITH TOKEN CANISTER ID>");
